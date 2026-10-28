@@ -113,7 +113,7 @@ public class BioBuzzStarterbotTeleop extends OpMode {
          * Reduction or 90 Deg drives may require direction flips
          */
         leftDrive.setDirection(DcMotor.Direction.FORWARD);
-        rightDrive.setDirection(DcMotor.Direction.REVERSE);
+        rightDrive.setDirection(DcMotor.Direction.FORWARD);
 
         /*
          * Setting zeroPowerBehavior to BRAKE enables a "brake mode". This causes the motor to
