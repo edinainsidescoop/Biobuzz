@@ -213,8 +213,8 @@ public class BioBuzzStarterbotTeleop extends OpMode {
          * variable before we write it to our motor and servos.
          */
         intake.setPower(intakePower);
-        leftIntakeServo.setPower(intakePower);
-        rightIntakeServo.setPower(intakePower);
+        leftIntakeServo.setPower(-intakePower);
+        rightIntakeServo.setPower(-intakePower);
 
         /*
          * Show motor powers on the Driver Station via telemetry.
